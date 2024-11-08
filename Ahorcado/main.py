@@ -14,8 +14,6 @@ def get_word():
   except Exception as e:
     randomIndex = random.randint(0, len(words) - 1)
     return words[randomIndex]
-  
-  return list('Lunes')
 
 def get_hide_word(word):
   hide_word = []
