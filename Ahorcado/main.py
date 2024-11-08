@@ -3,7 +3,7 @@ import requests
 import random
 
 def get_word():
-  words = ['Lunes', 'Gato', 'Zapato', "Conejo", "Silla"]
+  words = ['mediaban', 'ahínco', 'hirviente', 'íbamos', 'trescientos', 'agenciarse', 'evidentemente', 'canto', 'concluya', 'padecerá', 'gastronómica', 'facultades', 'atrevan', 'quitándole', 'desconceptuadas', 'avergüence', 'glacial', 'hendía', 'reconozco', 'atrajera', 'gran', 'teresuplicó', 'gabineteme', 'repita', 'asombraría', 'lagarto', 'lucecilla', 'llegó', 'encontrele', 'desconfianza']
   try:
     res = requests.get('https://clientes.api.greenborn.com.ar/public-random-word?c=aders": {
         "Content-Type": "application/json"
