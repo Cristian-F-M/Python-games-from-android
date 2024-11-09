@@ -1,5 +1,5 @@
 from Turn import Turn
-import o
+import os
 
 PIECES = {
   "X": "X",
